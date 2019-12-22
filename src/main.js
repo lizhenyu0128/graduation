@@ -13,7 +13,7 @@ import http from './utils/http'
 Vue.use(MintUI)
 Vue.config.productionTip = false
 Vue.prototype.http = http
-/* eslint-disable no-new */
+/* eslint-disable no-n   ew */
 new Vue({
   el: '#app',
   store,
