@@ -1,0 +1,29 @@
+@import url('./color.css');
+@import url('./font.css');
+.center-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.between-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.column-center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.around-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
